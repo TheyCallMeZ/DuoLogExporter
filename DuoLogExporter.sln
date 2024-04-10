@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuoLogExporter", "DuoLogExporter\DuoLogExporter.csproj", "{F977BF08-BB3F-4A2C-BF93-46DFF1D3E8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "duo_api_csharp", "duo_api_csharp\duo_api_csharp.csproj", "{1D53B298-CD64-4EA6-83EF-9402DB7BE15A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuoApiTest", "test\DuoApiTest.csproj", "{E96262E1-4A66-49E4-A16B-A92ACBB086A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F977BF08-BB3F-4A2C-BF93-46DFF1D3E8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F977BF08-BB3F-4A2C-BF93-46DFF1D3E8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F977BF08-BB3F-4A2C-BF93-46DFF1D3E8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F977BF08-BB3F-4A2C-BF93-46DFF1D3E8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D53B298-CD64-4EA6-83EF-9402DB7BE15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D53B298-CD64-4EA6-83EF-9402DB7BE15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D53B298-CD64-4EA6-83EF-9402DB7BE15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D53B298-CD64-4EA6-83EF-9402DB7BE15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96262E1-4A66-49E4-A16B-A92ACBB086A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96262E1-4A66-49E4-A16B-A92ACBB086A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96262E1-4A66-49E4-A16B-A92ACBB086A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96262E1-4A66-49E4-A16B-A92ACBB086A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
