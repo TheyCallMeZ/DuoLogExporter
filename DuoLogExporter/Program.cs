@@ -1,7 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
-using System.IO;
 using System.Text;
-using System.Text.Json.Serialization;
 using Duo;
 using Newtonsoft.Json;
 
@@ -12,7 +10,7 @@ internal class Program
 {
     //set us up to read from config and to make rest calls
     private static IConfigurationRoot? _config;
-    private static readonly HttpClient _http = new();
+
     private static readonly string? DuoEndPoint = Environment.GetEnvironmentVariable("duoEndPoint");
     private static readonly string? DuoClientKey = Environment.GetEnvironmentVariable("duoClientKey");
     private static readonly string? DuoClientSecret = Environment.GetEnvironmentVariable("duoClientSecret");
